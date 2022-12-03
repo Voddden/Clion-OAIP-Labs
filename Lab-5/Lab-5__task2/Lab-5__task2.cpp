@@ -5,16 +5,20 @@
  * В каждой строке удалить все максимальные элементы */
 
 // input of teeth`ed arrays
-void input(int** arr, int* N){
-    for (int i = 0; ; ++i) {
+void input(int** arr, int m, int* N){
+    for (int i = 0; i < m; ++i) {
         char iHateC[] = "arr[x][y] =";
-        iHateC[4] = i;
+        iHateC[4] = i + 48;
         int j = 0;
         while (true){
-            iHateC[6] = j;
+            iHateC[7] = j + 48;
             arr[i][j] = inputInteger(iHateC);
+            if (arr[i][j] == 0) {
+                N[i] = j + 1;
+                break;
+            }
             ++j;
-            if (arr[i][j] != 0) break;
+            arr[i] = (int*)realloc(arr[i], j + 1);
         }
     }
 }
