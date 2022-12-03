@@ -5,25 +5,20 @@
  * В каждой строке удалить все максимальные элементы */
 
 // input of teeth`ed arrays
-void input(int** arr, int m, int* N){
-    char iHateC[] = "arr[.][.] =";
-    for (int i = 0; i < m; ++i){
-        for (int j = 0; j < N[i]; ++j){
-            iHateC[4] = i + 48;
-            iHateC[7] = j + 48;
+void input(int** arr, int* N){
+    for (int i = 0; ; ++i) {
+        char iHateC[] = "arr[x][y] =";
+        iHateC[4] = i;
+        int j = 0;
+        while (true){
+            iHateC[6] = j;
             arr[i][j] = inputInteger(iHateC);
+            ++j;
+            if (arr[i][j] != 0) break;
         }
     }
 }
-void Rand(int** arr, int* N) {
-    int m = rand() % 4 + 1;
-    for (int i = 0; i < m; ++i) {
-        N[i] = rand() % 4 + 1;
-    }
-    for (int i = 0; i < m; ++i){
-        arr[i] = (int*)realloc(arr[i], N[i]);
-    }
-}
+
 void output(int** arr, int m, int* N){
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < N[i]; ++j) {
@@ -37,8 +32,6 @@ void Free(int** arr, int m) {
         free(arr[i]);
     free(arr);
 }
-
-
 
 void deleteElement(int* mas, int& length, int index) {
     for(int i = index; i < length - 1; ++i)
@@ -65,24 +58,17 @@ int main() {
     srand(time(NULL));
     printf("Lab 5, task 2\n\n");
 
-    int* N = (int*)calloc(1, sizeof (int));
-    //for (int i = 0; i < 1; ++i) N[i] = n;
+    int m = inputNatural("m =");
 
-    int** arr = (int**)calloc(1, sizeof(int));
-    for (int i = 0; i < 1; ++i)
+    int* N = (int*)calloc(m, sizeof (int));
+    for (int i = 0; i < m; ++i) N[i] = 1;
+
+    int** arr = (int**)calloc(m, sizeof(int));
+    for (int i = 0; i < m; ++i)
         arr[i] = (int*)calloc(1, sizeof(int));
 
-    int choice = inputNatural("---input matrix from keyboard - 1\t\trandom - 2\n");
-    while (choice != 1 && choice != 2 && choice) {
-        choice = inputNatural("---input matrix from keyboard - 1\t\trandom - 2\n");
-    }
-
-    switch (choice) {
-        case 1:
-            input(arr, m, N); break;
-        case 2:
-            Rand(arr, m, N);
-    }
+    // ввод массива с клавиатуры
+    input(arr, m, N);
 
     // вывод первоначального массива
     printf("\nInitial matrix:\n\n");
