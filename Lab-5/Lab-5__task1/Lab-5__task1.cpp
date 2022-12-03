@@ -27,7 +27,7 @@ void inputArr(int** arr, int m, int n) {
 void randArr(int** arr, int m, int n) {
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
-            arr[i][j] = rand() % 10 - rand() % 10;
+            arr[i][j] = rand() % 100;
         }
     }
 }
@@ -54,20 +54,18 @@ void Free(int** arr, int m) {
 }
 
 // operate
-void deleteElement(int** arr, int m, int n, int i, int j) {
-    // shift:
-    for (int k = j; k < n - 1; ++k)
-        arr[i][j] = arr[i][j + 1];
-    // reallocate:
-    arr[i] = (int*)realloc(arr[i], n - 1);
+void deleteElement(int* mas, int& length, int index) {
+    for(int i = index; i < length - 1; ++i)
+        mas[i] = mas[i + 1];
+    mas = (int*)realloc(mas, --length);
 }
 
 void operate(int** arr, int m, int* N) {
     for (int i = 0; i < m; ++i){
         for (int j = 0; j < N[i]; ++j){
             if (arr[i][j] % 11 == 0 && arr[i][j] != 0) {
-                deleteElement(arr, m, N[i], i, j);
-                --N[i];
+                deleteElement(arr[i], N[i], j);
+                --j;
             }
         }
     }
