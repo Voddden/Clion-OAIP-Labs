@@ -55,7 +55,8 @@ void Free(int** arr, int m) {
 void deleteElement(int* mas, int& length, int index) {
     for(int i = index; i < length - 1; ++i)
         mas[i] = mas[i + 1];
-    mas = (int*)realloc(mas, --length);
+    //mas = (int*)realloc(mas, --length);
+    --length;
 }
 
 void operate(int** arr, int m, int* N) {

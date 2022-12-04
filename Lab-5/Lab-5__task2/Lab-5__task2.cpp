@@ -6,19 +6,17 @@
 
 // input of teeth`ed arrays
 void input(int** arr, int m, int* N){
+    char iHateC[] = "arr[x][y] =";
     for (int i = 0; i < m; ++i) {
-        char iHateC[] = "arr[x][y] =";
         iHateC[4] = i + 48;
-        int j = 0;
-        while (true){
+        for (int j = 0; j < 30; ++j){
             iHateC[7] = j + 48;
             arr[i][j] = inputInteger(iHateC);
-            if (arr[i][j] == 0) {
+            if (arr[i][j] == 0){
+                //arr[i] = (int*)realloc(arr[i], j + 1);
                 N[i] = j + 1;
                 break;
             }
-            ++j;
-            arr[i] = (int*)realloc(arr[i], j + 1);
         }
     }
 }
@@ -40,16 +38,20 @@ void Free(int** arr, int m) {
 void deleteElement(int* mas, int& length, int index) {
     for(int i = index; i < length - 1; ++i)
         mas[i] = mas[i + 1];
-    mas = (int*)realloc(mas, --length);
+    //mas = (int*)realloc(mas, --length);
+    --length;
 }
 
 int indexOfMax(int* mas, int length){
+    int index = 0;
     int s = mas[0];
     for (int i = 1; i < length; ++i){
-        if (s < mas[i])
+        if (mas[i] > s) {
             s = mas[i];
+            index = i;
+        }
     }
-    return s;
+    return index;
 }
 
 // преобразование массива:
@@ -63,23 +65,25 @@ int main() {
     printf("Lab 5, task 2\n\n");
 
     int m = inputNatural("m =");
-
     int* N = (int*)calloc(m, sizeof (int));
-    for (int i = 0; i < m; ++i) N[i] = 1;
+    for (int i = 0; i < m; ++i) N[i] = 30;
 
-    int** arr = (int**)calloc(m, sizeof(int));
+    int** arr = (int**)malloc(m * sizeof(int));
     for (int i = 0; i < m; ++i)
-        arr[i] = (int*)calloc(1, sizeof(int));
+        arr[i] = (int*)malloc(N[i] * sizeof(int));
 
     // ввод массива с клавиатуры
     input(arr, m, N);
+
+    // отбрасывание не используемых элементов:
+    //for (int i = 0; i < m; ++i) arr[i] = (int*)realloc(arr[i], N[i]);
 
     // вывод первоначального массива
     printf("\nInitial matrix:\n\n");
     output(arr, m, N);
 
     // преобразование массива: (удаление максимальных элементов в каждой из строк)
-    //operate(arr, m, N);
+    operate(arr, m, N);
 
     // вывод преобразованного массива:
     printf("\nFinal matrix:\n\n");
