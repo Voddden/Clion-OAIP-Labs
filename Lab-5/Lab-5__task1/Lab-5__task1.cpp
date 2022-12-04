@@ -96,8 +96,8 @@ int main() {
     }
 
     // вывод первоначального массива
-    printf("\nInitial matrix:\n\n");
-    outputArr(arr, m, n);
+        printf("\nInitial matrix:\n\n");
+        outputArr(arr, m, n);
 
     // преобразование массива: (удаление элементов, кратных 11)
     operate(arr, m, N);
