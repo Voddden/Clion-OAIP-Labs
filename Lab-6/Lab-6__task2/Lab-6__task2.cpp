@@ -1,5 +1,4 @@
 #include "Validation.h"
-#include "Sort.h"
 
 int** allocation(int m, int n)
 {
@@ -42,8 +41,55 @@ void Free(int** arr, int m) {
         free(arr[i]);
     free(arr);
 }
+//////
+void swap(int& a, int& b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
 
+void swapRows(int* a, int* b, int n) {
+    int* temp = (int*)malloc(sizeof(int) * n);
 
+    for (int i = 0; i < n; ++i) {
+        temp[i] = a[i];
+        a[i] = b[i];
+        b[i] = temp[i];
+    }
+    free(temp);
+}
+
+int** transpose(int** arr, int x, int y) {
+    int** arr_T = allocation(y, x);
+    for (int i = 0; i < x; i++) // транспонирование матрицы
+        for (int j = 0; j < y; j++)
+            arr_T[j][i] = arr[i][j];
+    return arr_T;
+}
+
+void arrangeArr(int** arrInit, int m, int n) {
+    int** arrT = transpose(arrInit, m, n);
+
+    int* sumEven = (int*)malloc(sizeof(int) * n);
+    for (int i = 0; i < n; ++i){
+        for (int j = 0; j < n; ++j) {
+            if ((i + 1) % 2 == 0) {
+                sumEven[j] += arrInit[i][j];
+            }
+        }
+    }
+    // причудливая модифицированная пузырьковая сортировка по убыванию
+    for (int i = 0; i < m - 1; ++i) {
+        for (int k = 0; k < m - 1 - i; ++k) {
+            if (sumEven[k] < sumEven[k + 1]) {
+                swap(sumEven[k], sumEven[k + 1]);
+                swapRows(arrT[k], arrT[k + 1], n);
+            }
+        }
+    }
+
+    arrInit = transpose(arrT, m, n);
+}
 
 /* В матрице размером NxM выполнить сортировку столбцов по возрастанию суммы четных элементов методом слияния */
 
@@ -73,9 +119,8 @@ int main() {
     printf("\nInitial matrix:\n\n");
     outputArr(arr, m, n);
 
-    // преобразование массива: ()
-    //operate(arr, m, n);
-    Sort(arr, m, n);
+    // преобразование массива: (сортировка столбцов по возрастанию суммы четных элементов методом слияния)
+    arrangeArr(arr, m, n);
 
     // вывод преобразованного массива:
     printf("\nFinal matrix:\n\n");
