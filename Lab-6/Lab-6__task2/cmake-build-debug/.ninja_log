@@ -1,0 +1,20 @@
+# ninja log v5
+2	65	6918725614848478	CMakeFiles/Lab_6__task2.dir/main.cpp.obj	ce0fea10005e2f25
+73	139	6918733471764514	Lab_6__task2.exe	fd5f2d0b45b31a04
+7	133	6918723548179129	CMakeFiles/Lab_6__task2.dir/Validation.cpp.obj	ababfbb8567dfdc9
+0	123	6918789362400820	build.ninja	c34d95211dfba363
+2	73	6918733471141720	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+7	95	6918790757773345	CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj	29038bca17d3f3e
+2	116	6918790757983435	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+116	266	6918790759452452	Lab_6__task2.exe	80dc15247889b9d9
+5	78	6918791813485731	CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj	29038bca17d3f3e
+2	79	6918791813485731	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+1	81	6918792162971708	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+5	81	6918792383128900	CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj	29038bca17d3f3e
+2	81	6918792383128900	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+6	81	6918792893214035	CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj	29038bca17d3f3e
+2	70	6918793192890343	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+70	132	6918793193480928	Lab_6__task2.exe	80dc15247889b9d9
+2	125	6918793664691355	CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj	9efa4da04d0e5e04
+7	125	6918793664691355	CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj	29038bca17d3f3e
+125	194	6918793665361351	Lab_6__task2.exe	80dc15247889b9d9
