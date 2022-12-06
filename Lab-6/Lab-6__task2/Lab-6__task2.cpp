@@ -67,19 +67,20 @@ int** transpose(int** arr, int x, int y) {
     return arr_T;
 }
 
-void sortArr(int** mas, int m, int n) {
-    int* sumEven = (int*)malloc(sizeof(int) * n);
-    for (int i = 0; i < n; ++i){
-        for (int j = 0; j < m; ++j) {
+void sortArr(int** mas, int sizeY, int sizeX) {
+    int* sumEven = (int*)calloc(sizeY, sizeof(int));
+    for (int i = 0; i < sizeY; ++i){
+        for (int j = 0; j < sizeX; ++j) {
             if ((j + 1) % 2 == 0) {
                 sumEven[i] += mas[i][j];
             }
         }
     }
-    // причудливая модифицированная пузырьковая сортировка по убыванию
+    int m = sizeY, n = sizeX;
+
     for (int i = 0; i < m - 1; ++i) {
         for (int k = 0; k < m - 1 - i; ++k) {
-            if (sumEven[k] < sumEven[k + 1]) {
+            if (sumEven[k] > sumEven[k + 1]) {
                 swap(sumEven[k], sumEven[k + 1]);
                 swapRows(mas[k], mas[k + 1], n);
             }
@@ -101,7 +102,7 @@ int main() {
 
     int choice = inputNatural("---input matrix from keyboard - 1\t\trandom - 2\n");
     while (choice != 1 && choice != 2) {
-        choice = inputNatural("---input matrix from keyboard - 1\t\trandom - 2\n");
+        choice = inputNatural("Error. Try again\n---input matrix from keyboard - 1\trandom - 2\n");
     }
 
     switch (choice) {
@@ -115,7 +116,7 @@ int main() {
     printf("\nInitial matrix:\n\n");
     outputArr(arr, m, n);
 
-    // преобразование массива: (сортировка столбцов по возрастанию суммы четных элементов методом слияния)
+    // преобразование массива:
     arr = transpose(arr, m , n);
     sortArr(arr, n, m);
     arr = transpose(arr, n, m);

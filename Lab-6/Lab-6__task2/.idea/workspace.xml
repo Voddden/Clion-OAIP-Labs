@@ -20,6 +20,7 @@
     <list default="true" id="a7836248-960f-4a0b-a244-e9ae78264c69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-6__task2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-6__task2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab_6__task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab_6__task2.exe" afterDir="false" />
@@ -80,7 +81,7 @@
       <updated>1670168650046</updated>
       <workItem from="1670168652012" duration="7078000" />
       <workItem from="1670228478817" duration="6735000" />
-      <workItem from="1670333438496" duration="2245000" />
+      <workItem from="1670333438496" duration="5541000" />
     </task>
     <servers />
   </component>
@@ -106,8 +107,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Lab-6__task2.cpp</url>
-          <line>116</line>
-          <option name="timeStamp" value="2" />
+          <line>118</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -129,6 +130,24 @@
         <watch expression="arr[3][1]" language="ObjectiveC" />
         <watch expression="arr[3][2]" language="ObjectiveC" />
         <watch expression="arr[3][3]" language="ObjectiveC" />
+        <watch expression="mas[0][0]" language="ObjectiveC" />
+        <watch expression="mas[0][1]" language="ObjectiveC" />
+        <watch expression="mas[0][2]" language="ObjectiveC" />
+        <watch expression="mas[1][0]" language="ObjectiveC" />
+        <watch expression="mas[1][1]" language="ObjectiveC" />
+        <watch expression="mas[1][2]" language="ObjectiveC" />
+        <watch expression="mas[2][0]" language="ObjectiveC" />
+        <watch expression="mas[2][1]" language="ObjectiveC" />
+        <watch expression="mas[2][2]" language="ObjectiveC" />
+        <watch expression="mas[3][0]" language="ObjectiveC" />
+        <watch expression="mas[3][1]" language="ObjectiveC" />
+        <watch expression="mas[3][2]" language="ObjectiveC" />
+        <watch expression="sumEven[0]" language="ObjectiveC" />
+        <watch expression="sumEven[1]" language="ObjectiveC" />
+        <watch expression="sumEven[2]" language="ObjectiveC" />
+        <watch expression="sumEven[3]" language="ObjectiveC" />
+        <watch expression="sumEven[k]" language="ObjectiveC" />
+        <watch expression="sumEven[k + 1]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
