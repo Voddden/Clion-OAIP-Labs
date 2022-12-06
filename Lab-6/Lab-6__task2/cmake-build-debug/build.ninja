@@ -61,8 +61,8 @@ build CMakeFiles/Lab_6__task2.dir/Validation.cpp.obj: CXX_COMPILER__Lab_6__task2
   OBJECT_DIR = CMakeFiles\Lab_6__task2.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab_6__task2.dir
 
-build CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj: CXX_COMPILER__Lab_6__task2_Debug D$:/1.$ My$ repos/Clion-OAIP-Labs/Lab-6/Lab-6__task2/Sort.cpp || cmake_object_order_depends_target_Lab_6__task2
-  DEP_FILE = CMakeFiles\Lab_6__task2.dir\Sort.cpp.obj.d
+build CMakeFiles/Lab_6__task2.dir/mergeSort.cpp.obj: CXX_COMPILER__Lab_6__task2_Debug D$:/1.$ My$ repos/Clion-OAIP-Labs/Lab-6/Lab-6__task2/mergeSort.cpp || cmake_object_order_depends_target_Lab_6__task2
+  DEP_FILE = CMakeFiles\Lab_6__task2.dir\mergeSort.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Lab_6__task2.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab_6__task2.dir
@@ -75,7 +75,7 @@ build CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj: CXX_COMPILER__Lab_6__task2_Debug
 #############################################
 # Link the executable Lab_6__task2.exe
 
-build Lab_6__task2.exe: CXX_EXECUTABLE_LINKER__Lab_6__task2_Debug CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj CMakeFiles/Lab_6__task2.dir/Validation.cpp.obj CMakeFiles/Lab_6__task2.dir/Sort.cpp.obj
+build Lab_6__task2.exe: CXX_EXECUTABLE_LINKER__Lab_6__task2_Debug CMakeFiles/Lab_6__task2.dir/Lab-6__task2.cpp.obj CMakeFiles/Lab_6__task2.dir/Validation.cpp.obj CMakeFiles/Lab_6__task2.dir/mergeSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab_6__task2.dir

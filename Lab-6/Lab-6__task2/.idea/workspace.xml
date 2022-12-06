@@ -19,11 +19,20 @@
   <component name="ChangeListManager">
     <list default="true" id="a7836248-960f-4a0b-a244-e9ae78264c69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-6__task2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-6__task2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-cf41cd48962376d09e56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e3628224baa8d1ff149f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T17-42-16-0315.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Lab_6__task2-Debug-67476fdc5d608c561cec.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab_6__task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab_6__task2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +90,7 @@
       <updated>1670168650046</updated>
       <workItem from="1670168652012" duration="7078000" />
       <workItem from="1670228478817" duration="6735000" />
-      <workItem from="1670333438496" duration="5541000" />
+      <workItem from="1670333438496" duration="6718000" />
     </task>
     <servers />
   </component>
@@ -107,7 +116,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Lab-6__task2.cpp</url>
-          <line>118</line>
+          <line>125</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

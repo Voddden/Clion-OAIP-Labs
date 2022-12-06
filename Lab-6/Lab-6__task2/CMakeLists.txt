@@ -3,4 +3,4 @@ project(Lab_6__task2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab_6__task2 Lab-6__task2.cpp Validation.cpp Validation.h Sort.cpp Sort.h)
+add_executable(Lab_6__task2 Lab-6__task2.cpp Validation.cpp Validation.h mergeSort.cpp mergeSort.h)

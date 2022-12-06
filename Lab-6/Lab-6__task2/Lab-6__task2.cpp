@@ -1,4 +1,5 @@
 #include "Validation.h"
+#include "mergeSort.h"
 
 int** allocation(int m, int n)
 {
@@ -78,10 +79,16 @@ void sortArr(int** mas, int sizeY, int sizeX) {
     }
     int m = sizeY, n = sizeX;
 
+    int* dopArr = (int*) malloc(sizeof(int) * sizeY);
+    for (int i = 0; i < sizeY; ++i) {
+        dopArr[i] = sumEven[i];
+    }
+    mergeSort(sumEven, 0, sizeY);
+
     for (int i = 0; i < m - 1; ++i) {
         for (int k = 0; k < m - 1 - i; ++k) {
-            if (sumEven[k] > sumEven[k + 1]) {
-                swap(sumEven[k], sumEven[k + 1]);
+            if (dopArr[k] > dopArr[k + 1]) {
+                swap(dopArr[k], dopArr[k + 1]);
                 swapRows(mas[k], mas[k + 1], n);
             }
         }
