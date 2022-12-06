@@ -67,14 +67,12 @@ int** transpose(int** arr, int x, int y) {
     return arr_T;
 }
 
-void arrangeArr(int** arrInit, int m, int n) {
-    int** arrT = transpose(arrInit, m, n);
-
+void sortArr(int** mas, int m, int n) {
     int* sumEven = (int*)malloc(sizeof(int) * n);
     for (int i = 0; i < n; ++i){
-        for (int j = 0; j < n; ++j) {
-            if ((i + 1) % 2 == 0) {
-                sumEven[j] += arrInit[i][j];
+        for (int j = 0; j < m; ++j) {
+            if ((j + 1) % 2 == 0) {
+                sumEven[i] += mas[i][j];
             }
         }
     }
@@ -83,18 +81,16 @@ void arrangeArr(int** arrInit, int m, int n) {
         for (int k = 0; k < m - 1 - i; ++k) {
             if (sumEven[k] < sumEven[k + 1]) {
                 swap(sumEven[k], sumEven[k + 1]);
-                swapRows(arrT[k], arrT[k + 1], n);
+                swapRows(mas[k], mas[k + 1], n);
             }
         }
     }
-
-    arrInit = transpose(arrT, m, n);
 }
 
 /* В матрице размером NxM выполнить сортировку столбцов по возрастанию суммы четных элементов методом слияния */
 
 int main() {
-    //srand(time(NULL));
+    srand(time(NULL));
     printf("Lab 6, task 2\n\n");
     printf("Matrix m x n\n");
 
@@ -120,7 +116,9 @@ int main() {
     outputArr(arr, m, n);
 
     // преобразование массива: (сортировка столбцов по возрастанию суммы четных элементов методом слияния)
-    arrangeArr(arr, m, n);
+    arr = transpose(arr, m , n);
+    sortArr(arr, n, m);
+    arr = transpose(arr, n, m);
 
     // вывод преобразованного массива:
     printf("\nFinal matrix:\n\n");

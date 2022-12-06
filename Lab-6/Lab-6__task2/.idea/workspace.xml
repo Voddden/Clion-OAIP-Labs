@@ -69,11 +69,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670168650046</updated>
       <workItem from="1670168652012" duration="7078000" />
-      <workItem from="1670228478817" duration="2207000" />
+      <workItem from="1670228478817" duration="6735000" />
+      <workItem from="1670333438496" duration="2245000" />
     </task>
     <servers />
   </component>
@@ -110,10 +106,30 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Lab-6__task2.cpp</url>
-          <line>69</line>
-          <option name="timeStamp" value="1" />
+          <line>116</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="arr[0][0]" language="ObjectiveC" />
+        <watch expression="arr[0][1]" language="ObjectiveC" />
+        <watch expression="arr[0][2]" language="ObjectiveC" />
+        <watch expression="arr[0][3]" language="ObjectiveC" />
+        <watch expression="arr[1][0]" language="ObjectiveC" />
+        <watch expression="arr[1][1]" language="ObjectiveC" />
+        <watch expression="arr[1][2]" language="ObjectiveC" />
+        <watch expression="arr[1][3]" language="ObjectiveC" />
+        <watch expression="arr[2][0]" language="ObjectiveC" />
+        <watch expression="arr[2][1]" language="ObjectiveC" />
+        <watch expression="arr[2][2]" language="ObjectiveC" />
+        <watch expression="arr[2][3]" language="ObjectiveC" />
+        <watch expression="arr[3][0]" language="ObjectiveC" />
+        <watch expression="arr[3][1]" language="ObjectiveC" />
+        <watch expression="arr[3][2]" language="ObjectiveC" />
+        <watch expression="arr[3][3]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
