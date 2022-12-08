@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -18,50 +18,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7303a215-0425-4d80-86c9-5aec2732ff2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/Lab-6__task2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/Validation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/Validation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-cf41cd48962376d09e56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d445ebf07b920e9c03ed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fa5e8a1b031d5ec4b8ae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T15-50-49-0431.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/target-Lab_6__task2-Debug-11aa8d755dcbc98f716d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-879ae172463b8b264ea5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/Lab_6__task2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b6d2941f8ac63f25eea6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-08T09-33-24-0963.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-611f62be469cac9646e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-08T09-33-33-0884.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b52101660e2debdf95e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-03T17-28-56-0924.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/Lab_5__task1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task1/cmake-build-debug/Lab_5__task1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-483f41b73bbede841e93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-03T20-04-00-0411.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-5__task2/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8bbbfc07c3e62ccaae78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T12-42-41-0680.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task1/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c1a4e856b816638ec122.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-06T17-30-33-0532.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/Lab_6__task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab-6/Lab-6__task2/cmake-build-debug/Lab_6__task2.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,24 +80,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Lab_5__task3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_5__task3" TARGET_NAME="Lab_5__task3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_5__task3" RUN_TARGET_NAME="Lab_5__task3">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_5__task3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_5__task3" TARGET_NAME="Lab_5__task3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_5__task3" RUN_TARGET_NAME="Lab_5__task3">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -123,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670152368998</updated>
       <workItem from="1670152370836" duration="3692000" />
+      <workItem from="1670492021432" duration="1246000" />
     </task>
     <servers />
   </component>
