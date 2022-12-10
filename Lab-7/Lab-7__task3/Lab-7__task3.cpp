@@ -4,6 +4,6 @@
 четного количества символов. */
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello, my lovely world!" << std::endl;
     return 0;
 }
