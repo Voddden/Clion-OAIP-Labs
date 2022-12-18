@@ -18,6 +18,13 @@ void input(char** table, int m) {
     for(int i = 0; i < m; ++i) {
          printf("table[%d] =", i);
          gets(table[i]);
+    //     int j = 0;
+//         while (getchar() != '\n') {
+//             table[i][j] = getchar();
+//             ++j;
+//         }
+
+         //getchar();
     }
 }
 
@@ -33,9 +40,9 @@ void clearTable(char** table, int m) {
     }
 }
 
-void output(char** arr, int m) {
+void output(char** table, int m) {
     for (int i = 0; i < m; ++i) {
-        puts(arr[i]);
+        puts(table[i]);
     }
 }
 
@@ -77,24 +84,9 @@ void insertionSort(int arr[], int n)
     }
 }
 
-bool str1IsBigger(char* str1, char* str2) {
-    int length1 = strLength(str1);
-    int length2 = strLength(str2);
-    if (length1 > length2)
-        return true;
-    else
-        return false;
-}
-
 void copy(char* str1, char* str2) {
-    if (str1IsBigger(str1, str2)) {
-        for(int i = 0; str2[i-1] != '\0'; ++i)
-            str1[i] = str2[i];
-    }
-    else {
-        for(int i = 0; str2[i-1] != '\0'; ++i)
-            str1[i] = str2[i];
-    }
+    for(int i = 0; str2[i - 1] != '\0'; ++i)
+        str1[i] = str2[i];
 }
 
 void Sort(char** table, int m) {
@@ -126,7 +118,10 @@ int main() {
     int m = inputNatural("m =");
     char** arr = allocation(m, 100);
     input(arr, m);
-    clearTable(arr, m);
+    //clearTable(arr, m);
+
+    //puts("---Initital table:\n");
+    //output(arr, m);
 
     Sort(arr, m);
 
