@@ -15,15 +15,15 @@ int WordLength(char* str, int wordStart) {
 
 void operate(char* str, int k) {
     for (int i = 0; str[i] != '\0'; ++i) {
-        if (str[i] != ' ') {
-            int wordLength = WordLength(str, i);
-            while (wordLength > k) {
-                deleteWord(str, i, wordLength);
-                if (str[i] == ' ')
-                    break;
-                wordLength = WordLength(str, i);
-            }
-            i += wordLength;
+        if (str[i] == ' ')
+            continue;
+        int wordlength = WordLength(str, i);
+        if (wordlength > k) {
+            deleteWord(str, i, wordlength);
+            --i;
+        }
+        else {
+            i += wordlength;
         }
     }
 }
