@@ -4,6 +4,8 @@
 четного количества символов. */
 
 int main() {
-    std::cout << "Hello, my lovely world!" << std::endl;
+    char c;
+    scanf("%c", &c);
+    std::cout << c << std::endl;
     return 0;
 }

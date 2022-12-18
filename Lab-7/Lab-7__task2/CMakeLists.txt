@@ -3,4 +3,4 @@ project(Lab_7__task1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab_7__task2 Lab-7__task2.cpp)
+add_executable(Lab_7__task2 Lab-7__task2.cpp Validation.cpp Validation.h)
