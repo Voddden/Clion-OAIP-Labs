@@ -3,4 +3,4 @@ project(Lab1__task1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab1__task1 main.cpp)
+add_executable(Lab1__task1 Lab1__task1.cpp)
