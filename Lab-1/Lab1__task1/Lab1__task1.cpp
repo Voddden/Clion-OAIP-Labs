@@ -1,28 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Вариант 7
-1. С клавиатуры заполнить файл целыми числами.
-*/
+/* В-7
+ * 1. С клавиатуры заполнить файл целыми числами.*/
 
-int main() {
+int hasLetters(char* str) {
+    for (int i = 0; str[i] != '\0'; ++i)
+        if (!('0' <= str[i] && str[i] <= '9' || str[i] == ' '))
+            return 1;
+    return 0;
+}
 
+int main(void)
+{
     char* message = (char*)malloc(100);
-    puts("Enter integer:");
+    printf("Enter integer numbers:");
     gets(message);
-    int length = sizeof (message);
-
-    FILE* filePointer = fopen("D://data.txt", "w");
-    if (filePointer == NULL) {
-        perror("Error! No file found");
+    if (hasLetters(message)) {
+        perror("Error! Letters are not allowed");
         return 1;
     }
-
-    int temp;
-    for (int i = 0; i < length; ++i) {
-        putc(message[i], filePointer);
+    fflush(stdin);
+    FILE * fp= fopen("D://data.txt", "w");
+    if(fp)
+    {
+        // посимвольно записываем в файл
+        for(int i=0; message[i] != '\0'; i++)
+        {
+            putc(message[i], fp);
+        }
+        fclose(fp);
+        printf("File has been written\n");
     }
-    fclose(filePointer);
-    printf("File has been written");
-    return 0;
 }
