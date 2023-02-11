@@ -1,3 +1,0 @@
-D:/1. My repos/Clion-OAIP-Labs/Lab-5/Lab-5__task3/cmake-build-debug/CMakeFiles/Lab_5__task3.dir
-D:/1. My repos/Clion-OAIP-Labs/Lab-5/Lab-5__task3/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/1. My repos/Clion-OAIP-Labs/Lab-5/Lab-5__task3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
